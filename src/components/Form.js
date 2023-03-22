@@ -31,7 +31,7 @@ const Form = () => {
     const data = JSON.stringify(formData);
 
     fetch(
-      "https://0iztke3sll.execute-api.us-east-1.amazonaws.com/prod/contact_me",
+      "https://fyeuyr5fva.execute-api.us-east-1.amazonaws.com/prod/contact_me",
       {
         method: "POST",
         headers: {
